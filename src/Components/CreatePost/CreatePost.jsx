@@ -17,7 +17,7 @@ const CreatePostForm = (props) => {
             name: name,
             post: post
         };
-        console.log(newEntry); // console log lets us check to see what the data looks like and can help with testing
+        // console.log(newEntry); // console log lets us check to see what the data looks like and can help with testing
         props.addNewEntry(newEntry)  // here we call our function we passed down as props, it will take our newEntry value and pass it into our function in app.js
     }
 

@@ -1,3 +1,4 @@
+import ActiveButton from '../../Post/Post';
 import CustomButton from '../../Post/Post';
 import './DisplayPosts.css';
 
@@ -19,8 +20,7 @@ const DisplayPosts = (props) => {
                   <tr key = {index}>
                       <td>{posts.name}</td>   {/* these get their data from the map above */}
                       <td>{posts.post}</td>
-                      <CustomButton message="Like"/>
-                      <CustomButton message="Dislike"/>
+                      <ActiveButton/>
                   </tr>
               )
            })}

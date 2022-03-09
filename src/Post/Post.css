@@ -16,6 +16,34 @@ button:hover {
     background-color: rgb(14, 165, 14);
 }
 
+.active-dislike {
+    background-color: red;
+}
+
 .inactive{
     background-color: gray;
+}
+
+.App {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+
+.active-like {
+    background-color: green;
+}
+
+.active-dislike {
+    background-color: red;
+}
+
+.button {
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    overflow: hidden;
+    cursor: pointer;
 }
