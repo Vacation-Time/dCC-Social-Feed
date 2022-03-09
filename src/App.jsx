@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 
-  const [posts, setPosts] = useState([{name: 'Luca', post: 'Test to see if its working'}])  // this is where I will store all of my post data
+  const [posts, setPosts] = useState([{name: 'TestName', post: 'Test to see if its working'}])  // this is where I will store all of my post data
 
   function addNewPost(post){  // this funciion will pull post data from my CreatePost component and save it to my post "hook" above
 
