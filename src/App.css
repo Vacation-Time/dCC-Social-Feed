@@ -4,4 +4,9 @@
     border-color: black;
     margin: 1em;
     padding: 1em;
+    background-color: rgb(157, 250, 219);
+}
+
+.container-fluid {
+    background-color: aqua;
 }
